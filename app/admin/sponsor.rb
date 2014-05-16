@@ -1,4 +1,5 @@
 ActiveAdmin.register Sponsor do
+  permit_params :name, :logo_url
 
   
   # See permitted parameters documentation:
