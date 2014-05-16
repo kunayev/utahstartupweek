@@ -1,4 +1,5 @@
 ActiveAdmin.register EventType do
+  permit_params :type, :logo
 
   
   # See permitted parameters documentation:
