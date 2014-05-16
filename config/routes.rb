@@ -1,4 +1,5 @@
 Utahstartupweek::Application.routes.draw do
+  get "home/index"
   resources :sponsors
 
   resources :events
