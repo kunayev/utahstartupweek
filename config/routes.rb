@@ -1,4 +1,6 @@
 Utahstartupweek::Application.routes.draw do
+  resources :sponsors
+
   resources :events
 
   devise_for :admin_users, ActiveAdmin::Devise.config
