@@ -1,4 +1,5 @@
 ActiveAdmin.register Event do
+  permit_params :description, :title, :rsvp_link, :time_at
 
   
   # See permitted parameters documentation:
